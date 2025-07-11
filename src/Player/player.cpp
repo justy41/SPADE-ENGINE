@@ -44,7 +44,7 @@ void Player::update(float dt) {
     
     // Sets the camera zoom
     if(IsKeyPressed(KEY_Z)) {
-        camera->zoom = 1.2f;
+        camera->zoom = 0.5f;
     }
     
     if(IsKeyDown(KEY_D)) {

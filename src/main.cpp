@@ -21,7 +21,7 @@ int main(){
         
     // ========================================================= DRAW ========================================================= //
         BeginTextureMode(target);
-            ClearBackground(SKYBLUE);
+            ClearBackground(Color{66, 57, 82, 255});
             manager.draw();
         EndTextureMode();
         
