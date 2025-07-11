@@ -111,7 +111,7 @@ public:
     std::unordered_map<std::pair<float, float>, bool, FloatPairHash> collisions_layer;
     std::unordered_map<std::string, Rectangle> entities;
     
-    // Adds a heap allocated object in a std::vector<SineBasic*>
+    // Adds a heap allocated object in a std::vector<Base*>
     //
     // NOTE: always create objects with 'new' when adding to a Group
     virtual void add(Base* obj) {
