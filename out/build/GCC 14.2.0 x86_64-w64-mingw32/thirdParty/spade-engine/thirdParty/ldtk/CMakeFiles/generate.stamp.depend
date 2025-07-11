@@ -1,9 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.30/Modules/BasicConfigVersion-SameMinorVersion.cmake.in
-C:/Program Files/CMake/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake
-C:/Program Files/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake
-C:/Program Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/CMakeFiles/cmake.verify_globs
-C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/ldtk/CMakeLists.txt
-C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/ldtk/cmake/LDtkLoaderConfig.cmake.in
-C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/ldtk/src/Version.hpp.in
