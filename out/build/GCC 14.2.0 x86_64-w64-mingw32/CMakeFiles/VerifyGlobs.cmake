@@ -3,27 +3,27 @@
 cmake_policy(SET CMP0009 NEW)
 
 # MY_SOURCES at CMakeLists.txt:14 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/src/*.cpp")
 set(OLD_GLOB
-  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/src/Player/player.cpp"
-  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/src/main.cpp"
+  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/src/Player/player.cpp"
+  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/CMakeFiles/cmake.verify_globs")
 endif()
 
 # MY_SOURCES at thirdParty/spade-engine/thirdParty/imgui/CMakeLists.txt:7 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/thirdParty/spade-engine/thirdParty/imgui/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/imgui/src/*.cpp")
 set(OLD_GLOB
-  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/thirdParty/spade-engine/thirdParty/imgui/src/imgui.cpp"
-  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/thirdParty/spade-engine/thirdParty/imgui/src/imgui_demo.cpp"
-  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/thirdParty/spade-engine/thirdParty/imgui/src/imgui_draw.cpp"
-  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/thirdParty/spade-engine/thirdParty/imgui/src/imgui_tables.cpp"
-  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/thirdParty/spade-engine/thirdParty/imgui/src/imgui_widgets.cpp"
-  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/thirdParty/spade-engine/thirdParty/imgui/src/rlImGui.cpp"
+  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/imgui/src/imgui.cpp"
+  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/imgui/src/imgui_demo.cpp"
+  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/imgui/src/imgui_draw.cpp"
+  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/imgui/src/imgui_tables.cpp"
+  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/imgui/src/imgui_widgets.cpp"
+  "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/imgui/src/rlImGui.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/CMakeFiles/cmake.verify_globs")
 endif()

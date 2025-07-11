@@ -50,35 +50,35 @@ unset(_cmake_expected_targets)
 add_library(LDtkLoader::LDtkLoader STATIC IMPORTED)
 
 set_target_properties(LDtkLoader::LDtkLoader PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/thirdParty/spade-engine/thirdParty/ldtk/include;C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/thirdParty/spade-engine/thirdParty/ldtk/include;C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/include"
 )
 
 # Import target "LDtkLoader::LDtkLoader" for configuration "Debug"
 set_property(TARGET LDtkLoader::LDtkLoader APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(LDtkLoader::LDtkLoader PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/lib/Debug/LDtkLoader-d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/lib/Debug/LDtkLoader-d.lib"
   )
 
 # Import target "LDtkLoader::LDtkLoader" for configuration "Release"
 set_property(TARGET LDtkLoader::LDtkLoader APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(LDtkLoader::LDtkLoader PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/lib/Release/LDtkLoader.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/lib/Release/LDtkLoader.lib"
   )
 
 # Import target "LDtkLoader::LDtkLoader" for configuration "MinSizeRel"
 set_property(TARGET LDtkLoader::LDtkLoader APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(LDtkLoader::LDtkLoader PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/lib/MinSizeRel/LDtkLoader.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/lib/MinSizeRel/LDtkLoader.lib"
   )
 
 # Import target "LDtkLoader::LDtkLoader" for configuration "RelWithDebInfo"
 set_property(TARGET LDtkLoader::LDtkLoader APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(LDtkLoader::LDtkLoader PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/lib/RelWithDebInfo/LDtkLoader.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/lib/RelWithDebInfo/LDtkLoader.lib"
   )
 
 # This file does not depend on other imported targets which have

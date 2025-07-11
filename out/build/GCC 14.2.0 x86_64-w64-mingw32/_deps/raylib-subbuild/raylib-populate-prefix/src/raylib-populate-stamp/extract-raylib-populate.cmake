@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/5.5.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-subbuild/raylib-populate-prefix/src/5.5.tar.gz" ABSOLUTE)
+get_filename_component(directory "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

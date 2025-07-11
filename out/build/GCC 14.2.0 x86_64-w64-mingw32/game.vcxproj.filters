@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\src\Player\player.cpp">
+    <ClCompile Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\src\Player\player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\src\main.cpp">
+    <ClCompile Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A3FF4E4B-A991-3923-87A9-4466FA96E1C3}</UniqueIdentifier>
+      <UniqueIdentifier>{68F92381-15E8-3FC0-9A66-7B9DC3F243E9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

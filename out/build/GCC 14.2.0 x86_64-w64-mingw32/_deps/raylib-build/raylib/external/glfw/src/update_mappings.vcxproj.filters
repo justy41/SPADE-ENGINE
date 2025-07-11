@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\54dbbe10a8d8ff98d9ad49930e30aa7c\update_mappings.rule">
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\73f382ed8411304dcc1f53d5a4098524\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
+    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{DC1E5AB1-04F3-3936-B55A-8F39239E2D35}</UniqueIdentifier>
+      <UniqueIdentifier>{FC676FEB-82D4-3523-B835-6FB9B9B6CBA6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{C4C785E9-01A3-36AF-9073-99F4F2068451}</UniqueIdentifier>
+      <UniqueIdentifier>{52BF5193-2B6B-3295-91F9-297E68BF7172}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

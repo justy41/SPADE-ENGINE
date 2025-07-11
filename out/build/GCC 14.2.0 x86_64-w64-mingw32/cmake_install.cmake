@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE
+# Install script for directory: C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/install/GCC 14.2.0 x86_64-w64-mingw32")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/install/GCC 14.2.0 x86_64-w64-mingw32")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/cmake_install.cmake")
+  include("C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

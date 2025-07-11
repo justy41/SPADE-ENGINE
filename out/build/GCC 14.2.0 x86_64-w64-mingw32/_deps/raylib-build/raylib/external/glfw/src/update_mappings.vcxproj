@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2D958300-98A5-301D-A8AD-0CEB76854C91}</ProjectGuid>
+    <ProjectGuid>{D5390F0C-8581-3A86-9E73-4D5660E5266D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,15 +105,15 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\54dbbe10a8d8ff98d9ad49930e30aa7c\update_mappings.rule">
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\73f382ed8411304dcc1f53d5a4098524\update_mappings.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src"
+cd "C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -122,17 +122,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src"
+cd "C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,17 +141,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src"
+cd "C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,17 +160,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src"
+cd "C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -179,17 +179,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2 "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,12 +197,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2 "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -210,12 +210,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2 "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -223,12 +223,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2 "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,22 +236,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
+    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
     </None>
-    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake">
+    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake">
     </None>
-    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings">
+    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\ZERO_CHECK.vcxproj">
-      <Project>{D0926756-0AAC-3849-91ED-540596CD9137}</Project>
+    <ProjectReference Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\ZERO_CHECK.vcxproj">
+      <Project>{9C6E57BD-890E-3448-83BC-A2A9F503CD91}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

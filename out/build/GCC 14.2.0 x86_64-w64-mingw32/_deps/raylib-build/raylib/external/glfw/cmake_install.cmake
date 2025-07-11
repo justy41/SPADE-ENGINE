@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw
+# Install script for directory: C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/src/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/install/GCC 14.2.0 x86_64-w64-mingw32")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/install/GCC 14.2.0 x86_64-w64-mingw32")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
+  include("C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
 endif()
 

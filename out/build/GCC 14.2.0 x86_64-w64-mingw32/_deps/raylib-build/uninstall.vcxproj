@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1C0FAE9C-4D56-3A9E-8E53-F1811930630D}</ProjectGuid>
+    <ProjectGuid>{05E4C809-5195-3CC3-9928-8FB100507843}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\d30ef60048f73bcb7cbc742b5958acb8\uninstall.rule">
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\fd72ee944fec74e0c6ce32b301bd821b\uninstall.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,12 +131,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -145,12 +145,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/cmake_uninstall.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,17 +159,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2 "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -177,12 +177,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeOptions.txt;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\CompilerFlags.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\EnumOption.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\ParseConfigHeader.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\Uninstall.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeOptions.txt;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\CompilerFlags.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\EnumOption.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\ParseConfigHeader.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\Uninstall.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2 "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -190,12 +190,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeOptions.txt;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\CompilerFlags.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\EnumOption.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\ParseConfigHeader.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\Uninstall.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeOptions.txt;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\CompilerFlags.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\EnumOption.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\ParseConfigHeader.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\Uninstall.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2 "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -203,12 +203,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeOptions.txt;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\CompilerFlags.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\EnumOption.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\ParseConfigHeader.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\Uninstall.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeOptions.txt;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\CompilerFlags.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\EnumOption.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\ParseConfigHeader.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\Uninstall.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2 "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,18 +216,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeOptions.txt;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\CompilerFlags.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\EnumOption.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\ParseConfigHeader.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\Uninstall.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\cmake.verify_globs;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\CMakeOptions.txt;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\CompilerFlags.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\EnumOption.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\ParseConfigHeader.cmake;C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-src\cmake\Uninstall.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall">
+    <None Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\_deps\raylib-build\CMakeFiles\uninstall">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\ZERO_CHECK.vcxproj">
-      <Project>{D0926756-0AAC-3849-91ED-540596CD9137}</Project>
+    <ProjectReference Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINEv2\out\build\GCC 14.2.0 x86_64-w64-mingw32\ZERO_CHECK.vcxproj">
+      <Project>{9C6E57BD-890E-3448-83BC-A2A9F503CD91}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

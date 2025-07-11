@@ -1,4 +1,4 @@
-prefix=C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/install/GCC 14.2.0 x86_64-w64-mingw32
+prefix=C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINEv2/out/install/GCC 14.2.0 x86_64-w64-mingw32
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
