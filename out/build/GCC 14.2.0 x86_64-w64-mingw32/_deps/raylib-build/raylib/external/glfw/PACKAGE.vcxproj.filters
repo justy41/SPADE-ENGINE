@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\out\build\GCC 14.2.0 x86_64-w64-mingw32\CMakeFiles\aeda692f066fe50866ea8bd842e8da8c\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DC1E5AB1-04F3-3936-B55A-8F39239E2D35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

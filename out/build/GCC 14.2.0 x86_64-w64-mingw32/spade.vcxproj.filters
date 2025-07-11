@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\src\spade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Iustin\Documents\PROJECTS\_C++\SPADE-ENGINE\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A3FF4E4B-A991-3923-87A9-4466FA96E1C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

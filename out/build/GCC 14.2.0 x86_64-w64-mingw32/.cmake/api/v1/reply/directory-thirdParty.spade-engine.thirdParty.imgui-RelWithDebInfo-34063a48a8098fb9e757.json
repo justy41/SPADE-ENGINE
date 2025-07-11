@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "thirdParty/spade-engine/thirdParty/imgui",
+		"source" : "thirdParty/spade-engine/thirdParty/imgui"
+	}
+}

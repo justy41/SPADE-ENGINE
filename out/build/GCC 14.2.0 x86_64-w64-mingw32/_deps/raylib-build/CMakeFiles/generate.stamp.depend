@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/CMakeFiles/cmake.verify_globs
+C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeLists.txt
+C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/CMakeOptions.txt
+C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake
+C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/cmake/CompilerFlags.cmake
+C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/cmake/EnumOption.cmake
+C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/cmake/ParseConfigHeader.cmake
+C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-src/cmake/Uninstall.cmake

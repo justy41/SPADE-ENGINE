@@ -1,0 +1,10 @@
+^C:\USERS\IUSTIN\DOCUMENTS\PROJECTS\_C++\SPADE-ENGINE\OUT\BUILD\GCC 14.2.0 X86_64-W64-MINGW32\_DEPS\RAYLIB-SRC\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE "-BC:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32" --check-stamp-file "C:/Users/Iustin/Documents/PROJECTS/_C++/SPADE-ENGINE/out/build/GCC 14.2.0 x86_64-w64-mingw32/_deps/raylib-build/raylib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

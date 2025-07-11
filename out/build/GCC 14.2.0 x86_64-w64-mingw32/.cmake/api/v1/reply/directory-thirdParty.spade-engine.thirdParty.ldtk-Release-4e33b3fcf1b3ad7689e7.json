@@ -1,0 +1,150 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdParty/spade-engine/thirdParty/ldtk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/doc/LDtkLoader",
+			"paths" : 
+			[
+				"thirdParty/spade-engine/thirdParty/ldtk/LICENSE.md",
+				"thirdParty/spade-engine/thirdParty/ldtk/README.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"thirdParty/spade-engine/thirdParty/ldtk/include/LDtkLoader"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/include/LDtkLoader"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdParty/spade-engine/thirdParty/ldtk/lib/Release/LDtkLoader.lib"
+			],
+			"targetId" : "LDtkLoader::@7cb034a6c46ceac98af5",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/LDtkLoader",
+			"exportName" : "LDtkLoaderTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "LDtkLoader::@7cb034a6c46ceac98af5",
+					"index" : 6
+				}
+			],
+			"paths" : 
+			[
+				"thirdParty/spade-engine/thirdParty/ldtk/CMakeFiles/Export/f9647eb62aabc71d50658ff864394ae9/LDtkLoaderTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/LDtkLoader",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/LDtkLoaderConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/LDtkLoader",
+			"paths" : 
+			[
+				"out/build/GCC 14.2.0 x86_64-w64-mingw32/thirdParty/spade-engine/thirdParty/ldtk/LDtkLoaderConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdParty/spade-engine/thirdParty/ldtk",
+		"source" : "thirdParty/spade-engine/thirdParty/ldtk"
+	}
+}

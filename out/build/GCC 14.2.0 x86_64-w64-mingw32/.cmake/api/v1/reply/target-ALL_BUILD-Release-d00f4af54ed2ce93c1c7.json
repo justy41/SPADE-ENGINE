@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"thirdParty/spade-engine/thirdParty/ldtk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "LDtkLoader::@7cb034a6c46ceac98af5"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@7cb034a6c46ceac98af5",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "thirdParty/spade-engine/thirdParty/ldtk",
+		"source" : "thirdParty/spade-engine/thirdParty/ldtk"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

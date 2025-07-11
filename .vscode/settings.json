@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "chrono": "cpp",
+        "functional": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "memory": "cpp",
+        "algorithm": "cpp",
+        "charconv": "cpp",
+        "filesystem": "cpp",
+        "iomanip": "cpp",
+        "valarray": "cpp",
+        "xhash": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xstring": "cpp"
+    }
+}
