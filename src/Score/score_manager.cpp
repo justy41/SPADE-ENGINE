@@ -12,6 +12,9 @@ void ScoreManager::update(float dt) {
             // TODO: add the yellow bars at the edges of the screen when hit by the player
         }
     }
+    else {
+        std::cout<<"\n\n YOYOYO\n\n";
+    }
 }
 
 void ScoreManager::draw() {

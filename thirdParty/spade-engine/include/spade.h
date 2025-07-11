@@ -73,11 +73,18 @@ public:
     
     bool active;
     bool destroy;
+    std::string tag;
     
     Base() {}
     virtual void create() {}
     virtual void update(float dt) {}
     virtual void draw() {}
+    void set_tag(const char* tag) {
+        this->tag = tag;
+    }
+    std::string get_tag() {
+        return tag;
+    }
     // TODO: add OnCollision() functions that execute when colliding (like in GameMaker Studio 2)
     ~Base() {}
 };
@@ -120,6 +127,18 @@ public:
         members.push_back(obj);
     }
     
+    template<typename T>
+    T* get_with_tag(const char* tag) {
+        for (Base* obj : members) {
+            if (T* casted = dynamic_cast<T*>(obj)) {
+                if (strcmp(casted->get_tag().c_str(), tag) == 0) {
+                    return casted;
+                }
+            }
+        }
+        return nullptr;
+    }
+    
     // Runs once when the Scene is loaded
     //
     // NOTE: put this as the first line if the function is overriden as Scene::start()
@@ -152,11 +171,11 @@ public:
         for(auto obj : members_to_remove) {
             auto it = std::find(members.begin(), members.end(), obj);
             if(it != members.end()) {
+                *it = nullptr;
                 delete *it;
                 members.erase(it);
             }
         }
-        
         members_to_remove.clear();
     }
     

@@ -21,6 +21,7 @@ public:
         
         player = new Player(100, 100, 1200, -400);
         player->loadTexture(RESOURCES_PATH "player.png", true);
+        player->set_tag("Player");
         player->drag = Vector2{55, 300};
         player->set_hitbox(6, 6, 14, 14);
         add(player);
@@ -37,6 +38,7 @@ public:
     void update(float dt) override {
         Scene::update(dt);
         // Your code here
+        // std::cout<<members.size()<<" ";
     }
     
     void draw() override {
