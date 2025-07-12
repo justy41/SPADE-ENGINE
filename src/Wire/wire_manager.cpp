@@ -37,17 +37,24 @@ void WireManager::update(float dt) {
         }
         
         if(wire->big_wire) {
-            if(wire->upside_down)
+            if(wire->upside_down) {
                 wire->loadTexture(RESOURCES_PATH "big_wire_flipped.png");
-            else
+                wire->set_hitbox(8, -5, 10, 320);
+            }
+            else {
                 wire->loadTexture(RESOURCES_PATH "big_wire.png");
+                wire->set_hitbox(9, 10, 10, 295);
+            }
         }
         else {
             if(wire->upside_down)
                 wire->loadTexture(RESOURCES_PATH "small_wire_flipped.png");
             else
                 wire->loadTexture(RESOURCES_PATH "small_wire.png");
+            wire->set_hitbox(2, 13, 7, 293);
         }
+        
+        wire->set_tag("Wire");
         
         parent_scene->add(wire);
     }

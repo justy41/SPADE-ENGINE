@@ -11,6 +11,8 @@ private:
 
 public:
     int score;
+    int prev_score;
+    int dif_score;
     Player* player;
     
     ScoreManager(Player* player);

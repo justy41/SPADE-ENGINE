@@ -10,10 +10,23 @@ Player::Player(float x, float y, float acc, float jumpForce, float gravityForce,
     touched_right = false;
     can_touch_left = true;
     can_touch_right = true;
+    immune = false;
+    hit = false;
+    
+    immunity_timer_value = 2;
+    immunity_timer = immunity_timer_value;
 }
 
 void Player::update(float dt) {
     Sprite::update(dt);
+    
+    if(immune) {
+        immunity_timer -= dt;
+    }
+    if(immunity_timer <= 0) {
+        immune = false;
+        immunity_timer = immunity_timer_value;
+    }
     
     // ============================= This block...
     if(!can_touch_right) {
@@ -27,10 +40,6 @@ void Player::update(float dt) {
     
     SetPlayerBounds(); // ========== ...before this!
     RotatePlayer(10, dt);
-    
-    if(IsKeyDown(KEY_X)) {
-        Destroy();
-    }
     
     if(collisions["down"]) {
         SetGravity(0);
@@ -64,6 +73,16 @@ void Player::update(float dt) {
 
 void Player::draw() {
     Sprite::draw();
+}
+
+void Player::on_collision(Base* other) {
+    if(!immune) {
+        if(other->tag == "Wire") {
+            immune = true;
+            hit = true;
+            parent_scene->pause(0.09f);
+        }
+    }
 }
 
 void Player::SetPlayerBounds()

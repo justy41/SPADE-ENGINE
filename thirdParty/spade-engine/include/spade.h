@@ -49,6 +49,13 @@ struct RectangleHash {
     }
 };
 
+inline bool overlap(Rectangle rectA, Rectangle rectB) {
+    if(CheckCollisionRecs(rectA, rectB)) {
+        return true;
+    }
+    return false;
+}
+
 inline std::vector<Vector2> NEIGHBOUR_OFFSETS = {
     Vector2{-1, 1},
     Vector2{0, 1},
@@ -73,6 +80,7 @@ public:
     
     bool active;
     bool destroy;
+    bool solid;
     std::string tag;
     
     Base() {}
@@ -85,7 +93,7 @@ public:
     std::string get_tag() {
         return tag;
     }
-    // TODO: add OnCollision() functions that execute when colliding (like in GameMaker Studio 2)
+    virtual void on_collision(Base* other) {}
     ~Base() {}
 };
 
@@ -97,6 +105,8 @@ private:
     ldtk::IntRect r;
     std::unordered_map<std::string, Texture2D> tilesets;
     bool ldtk_debug;
+    bool paused = false;
+    float paused_timer;
     
     std::vector<Base*> members_to_remove;
 public:
@@ -139,6 +149,11 @@ public:
         return nullptr;
     }
     
+    void pause(float seconds) {
+        paused = true;
+        paused_timer = seconds;
+    }
+    
     // Runs once when the Scene is loaded
     //
     // NOTE: put this as the first line if the function is overriden as Scene::start()
@@ -160,9 +175,20 @@ public:
         VirtualMousePosition.x = ((GetMouseX() - offsetX) / scale);
         VirtualMousePosition.y = ((GetMouseY() - offsetY) / scale);
         
+        paused_timer -= dt;
+        if(paused_timer <= -100) paused_timer = -1;
+        if(paused_timer <= 0) {
+            paused = false;
+        }
+        
         for(int i = 0; i<members.size(); i++) {
             if(members[i]->active) {
-                members[i]->update(dt);
+                if(paused) {
+                    members[i]->update(0);
+                }
+                else {
+                    members[i]->update(dt);
+                }
                 if(members[i]->destroy)
                     members_to_remove.push_back(members[i]);
             }
@@ -406,8 +432,6 @@ public:
     float rotation;
     float gravity;
     
-    bool solid;
-    
     std::unordered_map<std::string, bool> collisions;
     
     Object(float x, float y) {
@@ -481,6 +505,24 @@ public:
                     position.x = hitbox.x - offset.x;
                 }
             }
+            
+            for(auto obj : parent_scene->members) {
+                if(obj != this) {
+                    if(obj->solid && overlap(hitbox, dynamic_cast<Object*>(obj)->hitbox)) {
+                        if(velocity.x > 0) {
+                            hitbox.x = dynamic_cast<Object*>(obj)->hitbox.x - hitbox.width;
+                            collisions["right"] = true;
+                            on_collision(obj);
+                        }
+                        if(velocity.x < 0) {
+                            hitbox.x = dynamic_cast<Object*>(obj)->hitbox.x - dynamic_cast<Object*>(obj)->hitbox.width;
+                            collisions["left"] = true;
+                            on_collision(obj);
+                        }
+                        position.x = hitbox.x - offset.x;
+                    }
+                }
+            }
         }
         
         if(collisions["right"] || collisions["left"]) {
@@ -508,22 +550,53 @@ public:
                     position.y = hitbox.y - offset.y;
                 }
             }
+            
+            for(auto obj : parent_scene->members) {
+                if(obj != this) {
+                    if(obj->solid && overlap(hitbox, dynamic_cast<Object*>(obj)->hitbox)) {
+                        if(velocity.y > 0) {
+                            hitbox.y = dynamic_cast<Object*>(obj)->hitbox.y - hitbox.height;
+                            collisions["down"] = true;
+                            on_collision(obj);
+                        }
+                        if(velocity.y < 0) {
+                            hitbox.y = dynamic_cast<Object*>(obj)->hitbox.y - dynamic_cast<Object*>(obj)->hitbox.height;
+                            collisions["up"] = true;
+                            on_collision(obj);
+                        }
+                        position.y = hitbox.y - offset.y;
+                    }
+                }
+            }
         }
         
         if(collisions["down"] || collisions["up"]) {
             velocity.y = 0;
         }
         // ======================================================================================================================== //
+        
+        // Check for overlaps in hitboxes if the object is not solid
+        if(!solid) {
+            for(auto obj : parent_scene->members) {
+                if(obj != this) {
+                    if(overlap(hitbox, dynamic_cast<Object*>(obj)->hitbox)) {
+                        on_collision(obj);
+                    }
+                }
+            }
+        }
     }
     virtual void draw() {}
     void Destroy() {destroy = true;}
     ~Object() {}
 };
 
+inline bool debug_mode = false;
+
 class Sprite : public Object
 {
 private:
-    bool debug_mode = false;
+    
 public:
     Texture2D texture;
     Vector2 origin;
@@ -594,13 +667,6 @@ public:
         UnloadTexture(texture);
     }
 };
-
-inline bool overlap(Object* entA, Object* entB) {
-    if(CheckCollisionRecs(entA->hitbox, entB->hitbox)) {
-        return true;
-    }
-    return false;
-}
 
 // Stores a unique pointer and a factory function (lambda function)
 struct StoredScene {
