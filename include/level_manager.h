@@ -9,7 +9,11 @@ class LevelManager : public Object
 private:
     
 public:
+    int slot_index;
+    int level_count;
+    bool slot_change;
     
+    Sprite* arrow;
     
     LevelManager();
     void create() override;
