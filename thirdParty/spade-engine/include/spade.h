@@ -714,7 +714,7 @@ public:
             scenes[0].instance->start();
     }
     
-    void SwitchState(int scene_index) {
+    void SwitchScene(int scene_index) {
         if (!scenes[0].instance) return;
 
         // Refresh state[0] using its own factory

@@ -3,6 +3,7 @@
 #include <memory>
 #include "spade.h"
 #include "StartScene.h"
+#include "MenuScene.h"
 
 int main(){
     InitSpadeWindow(1280, 720, 640, 360, "game", FLAG_WINDOW_RESIZABLE);
@@ -12,6 +13,7 @@ int main(){
     
     // ======================================================== START ========================================================= //
     SceneManager manager;
+    manager.add(std::make_unique<MenuScene>());
     manager.add(std::make_unique<StartScene>());
     
     while(!WindowShouldClose()) {
