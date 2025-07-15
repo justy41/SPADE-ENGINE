@@ -26,6 +26,23 @@ inline void InitSpadeWindow(int screenW, int screenH, int gameW, int gameH, cons
     SetTargetFPS(fps);
 }
 
+inline float close_window_timer = 0;
+
+inline bool SpadeWindowShouldClose(float timer_value) {
+    if(IsKeyDown(KEY_ESCAPE)) {
+        close_window_timer += GetFrameTime();
+    }
+    else {
+        close_window_timer = 0;
+    }
+    
+    if(close_window_timer >= timer_value) {
+        return true;
+    }
+    
+    return false;
+}
+
 // Stupid std::pair<float, float> hash function because C++ is too stupid to process anything...
 struct FloatPairHash {
     std::size_t operator()(const std::pair<float, float>& p) const {

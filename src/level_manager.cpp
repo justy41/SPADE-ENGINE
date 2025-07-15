@@ -18,10 +18,12 @@ void LevelManager::update(float dt) {
     if(IsKeyPressed(KEY_D)) {
         slot_index++;
         slot_change = true;
+        arrow->position.x += 112;
     }
     if(IsKeyPressed(KEY_A)) {
         slot_index--;
         slot_change = true;
+        arrow->position.x -= 112;
     }
     
     if(slot_index < 0) {
@@ -31,11 +33,14 @@ void LevelManager::update(float dt) {
     slot_index = slot_index%3;
     
     if(slot_change) {
-        arrow->position.x += 112;
         slot_change = false;
     }
+    
     if(slot_index == 0) {
         arrow->position.x = 192;
+    }
+    if(slot_index == level_count-1) {
+        arrow->position.x = 192 + (112*slot_index);
     }
 }
 

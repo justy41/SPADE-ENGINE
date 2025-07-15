@@ -2,6 +2,7 @@
 #include <cmath>
 #include <memory>
 #include "spade.h"
+#include "raymath.h"
 #include "StartScene.h"
 #include "MenuScene.h"
 
@@ -10,13 +11,14 @@ int main(){
     RenderTexture2D target = LoadRenderTexture(GAME_WIDTH, GAME_HEIGHT);
     SetTextureFilter(target.texture, TEXTURE_FILTER_POINT);
     float scale = 0;
+    Color Quit_color = Color{255, 255, 255, 0};
     
     // ======================================================== START ========================================================= //
     SceneManager manager;
     manager.add(std::make_unique<MenuScene>());
     manager.add(std::make_unique<StartScene>());
     
-    while(!WindowShouldClose()) {
+    while(!SpadeWindowShouldClose(2)) {
     // ======================================================== UPDATE ======================================================== //
         scale = std::min((float)GetScreenWidth()/GAME_WIDTH, (float)GetScreenHeight()/GAME_HEIGHT);
         manager.update(GetFrameTime());
@@ -25,6 +27,15 @@ int main(){
         BeginTextureMode(target);
             ClearBackground(Color{66, 57, 82, 255});
             manager.draw();
+            
+            // QUITTING text appearance
+            if(IsKeyDown(KEY_ESCAPE)) {
+                Quit_color = ColorLerp(Quit_color, WHITE, GetFrameTime()*2);
+                DrawText("quitting. . .", 5, GAME_HEIGHT-20, 15.5f, Quit_color);
+            }
+            else {
+                Quit_color.a = 0;
+            }
         EndTextureMode();
         
         DrawLetterBox(target, scale, GAME_WIDTH, GAME_HEIGHT);

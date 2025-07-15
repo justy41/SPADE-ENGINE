@@ -39,8 +39,10 @@ public:
         Scene::update(dt);
         
         // Your code here
-        if(IsKeyPressed(KEY_ENTER)) {
-            manager->SwitchScene(2);
+        if(level_manager->slot_index== 0) {
+            if(IsKeyPressed(KEY_ENTER) || IsKeyPressed(KEY_SPACE)) {
+                manager->SwitchScene(2);
+            }
         }
     }
     
