@@ -5,6 +5,7 @@ ScoreManager::ScoreManager(Player* player, int max_score) : Object(0, 0) {
     prev_score = score;
     this->player = player;
     this->max_score = max_score;
+    space_cooldown = 2.f;
 }
 
 void ScoreManager::update(float dt) {
@@ -25,7 +26,7 @@ void ScoreManager::update(float dt) {
             }
         }
         else {
-            std::cout<<"\n\n YOYOYO\n\n";
+            std::cout<<"\n\n WARNING: player is nullptr \n\n";
         }
         
         prev_score = score;
@@ -34,6 +35,10 @@ void ScoreManager::update(float dt) {
     // FOR DEBUGGING
     if(IsKeyPressed(KEY_BACKSPACE)) {
         won = true;
+    }
+    
+    if(won) {
+        space_cooldown -= dt;
     }
 }
 
@@ -51,7 +56,8 @@ void ScoreManager::draw() {
     if(won) {
         DrawRectangle(-10, -10, GAME_WIDTH+10, GAME_HEIGHT+10, Color{252, 186, 3, 30});
         DrawText("YOU WON", GAME_WIDTH/2 - (TextLength("YOU WON")+1)*17/2, GAME_HEIGHT/2 - 17, 34, WHITE);
-        DrawText("Press space to return to menu", GAME_WIDTH/2 - (TextLength("Press space to return to menu")+1)*6/2, GAME_HEIGHT/2 + 26, 12, WHITE);
+        if(space_cooldown <= 0)
+            DrawText("Press space to return to menu", GAME_WIDTH/2 - (TextLength("Press space to return to menu")+1)*6/2, GAME_HEIGHT/2 + 26, 12, WHITE);
     }
 }
 

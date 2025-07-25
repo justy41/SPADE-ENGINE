@@ -53,7 +53,8 @@ public:
         }
         
         if(score_manager->won) {
-            if(IsKeyPressed(KEY_SPACE)) {
+            finished_game = true;
+            if(IsKeyPressed(KEY_SPACE) && score_manager->space_cooldown <= 0) {
                 manager->SwitchScene(1);
             }
         }

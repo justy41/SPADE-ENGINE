@@ -16,6 +16,8 @@ public:
     Sprite* lock_hard;
     LevelManager* level_manager;
     
+    float thanks_cooldown = 2;
+    
     void start() override {
         CameraSetup();
         
@@ -73,7 +75,15 @@ public:
     void draw() override {
         BeginMode2D(camera);
             Scene::draw();
+            DrawText("Esc to quit game", 5, 5, 8, Color{133, 69, 82, 255});
             DrawText("Level Select", GAME_WIDTH/2-TextLength("Level Select")*12/2, 90, 24, WHITE);
+            
+            if(finished_game) {
+                thanks_cooldown -= GetFrameTime();
+                DrawText("Congratulations! YOU ROCK!", 80, 272, 34, Color{209, 191, 176, 255});
+                if(thanks_cooldown <= 0)
+                    DrawText("Thanks for playing :)", 248, 320, 14, Color{209, 191, 176, 255});
+            }
         EndMode2D();
     }
 };

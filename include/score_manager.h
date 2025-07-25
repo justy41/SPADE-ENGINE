@@ -15,6 +15,7 @@ public:
     int prev_score;
     int dif_score;
     bool won = false;
+    float space_cooldown;
     
     Player* player;
     

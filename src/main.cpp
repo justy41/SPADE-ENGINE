@@ -14,6 +14,7 @@ int main(){
     SetTextureFilter(target.texture, TEXTURE_FILTER_POINT);
     float scale = 0;
     Color Quit_color = Color{255, 255, 255, 0};
+    bool exitWindow = false;
     
     // ======================================================== START ========================================================= //
     SceneManager manager;
@@ -22,8 +23,10 @@ int main(){
     manager.add(std::make_unique<MediumScene>());
     manager.add(std::make_unique<HardScene>());
     
-    while(!SpadeWindowShouldClose(2)) {
+    while(!SpadeWindowShouldClose(2) && !exitWindow) {
     // ======================================================== UPDATE ======================================================== //
+        if(WindowShouldClose() && !IsKeyPressed(KEY_ESCAPE)) exitWindow = true;
+        
         scale = std::min((float)GetScreenWidth()/GAME_WIDTH, (float)GetScreenHeight()/GAME_HEIGHT);
         manager.update(GetFrameTime());
         

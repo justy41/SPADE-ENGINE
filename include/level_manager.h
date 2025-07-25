@@ -6,6 +6,7 @@
 
 inline bool lock_1 = false;
 inline bool lock_2 = false;
+inline bool finished_game = false;
 inline int slot_index = 0;
 
 class LevelManager : public Object

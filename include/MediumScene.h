@@ -55,7 +55,7 @@ public:
         
         if(score_manager->won) {
             lock_2 = true;
-            if(IsKeyPressed(KEY_SPACE)) {
+            if(IsKeyPressed(KEY_SPACE) && score_manager->space_cooldown <= 0) {
                 manager->SwitchScene(1);
             }
         }
