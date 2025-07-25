@@ -1,8 +1,10 @@
 #include "wire_manager.h"
 
-WireManager::WireManager(float in_between_spawn_time) : Object(0, 0) {
+WireManager::WireManager(float in_between_spawn_time, float minSpeed, float maxSpeed) : Object(0, 0) {
     spawn_timer = in_between_spawn_time;
     spawn_timer_value = in_between_spawn_time;
+    this->minSpeed = minSpeed;
+    this->maxSpeed = maxSpeed;
 }
 
 void WireManager::update(float dt) {
@@ -10,10 +12,10 @@ void WireManager::update(float dt) {
     if(spawn_timer <= 0) {
         spawn_timer = spawn_timer_value;
         
-        Wire* wire = new Wire(GetRandomValue(0, 1), GetRandomValue(65, 120), GetRandomValue(50, 120), GetRandomValue(false, true), GetRandomValue(false , true));
+        Wire* wire = new Wire(GetRandomValue(0, 1), GetRandomValue(170, 210), GetRandomValue(minSpeed, maxSpeed), GetRandomValue(false, true), GetRandomValue(false , true));
         
         if(wire->upside_down) {
-            wire->position.y = GetRandomValue(-190, -100);
+            wire->position.y = GetRandomValue(-230, -200);
         }
         
         if(wire->position.x == 0) {

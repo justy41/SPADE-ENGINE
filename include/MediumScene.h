@@ -7,7 +7,7 @@
 #include "wire_manager.h"
 #include "score_manager.h"
 
-class EasyScene : public Scene
+class MediumScene : public Scene
 {
 private:
     
@@ -26,10 +26,10 @@ public:
         player->set_hitbox(6, 6, 14, 14);
         add(player);
         
-        wire_manager = new WireManager(3, 50, 120);
+        wire_manager = new WireManager(1, 60, 125);
         add(wire_manager);
         
-        score_manager = new ScoreManager(player, 20);
+        score_manager = new ScoreManager(player, 25);
         add(score_manager);
         
         Scene::start();
@@ -48,6 +48,7 @@ public:
     }
     
     void draw() override {
+        ClearBackground(Color{100, 57, 82, 255});
         BeginMode2D(camera);
             Scene::draw();
         EndMode2D();

@@ -3,8 +3,9 @@
 #include <memory>
 #include "spade.h"
 #include "raymath.h"
-#include "EasyScene.h"
 #include "MenuScene.h"
+#include "EasyScene.h"
+#include "MediumScene.h"
 
 int main(){
     InitSpadeWindow(1280, 720, 640, 360, "game", FLAG_WINDOW_RESIZABLE);
@@ -17,6 +18,7 @@ int main(){
     SceneManager manager;
     manager.add(std::make_unique<MenuScene>());
     manager.add(std::make_unique<EasyScene>());
+    manager.add(std::make_unique<MediumScene>());
     
     while(!SpadeWindowShouldClose(2)) {
     // ======================================================== UPDATE ======================================================== //

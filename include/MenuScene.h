@@ -39,11 +39,16 @@ public:
         Scene::update(dt);
         
         // Your code here
-        if(level_manager->slot_index== 0) {
-            if(IsKeyPressed(KEY_ENTER) || IsKeyPressed(KEY_SPACE)) {
+        if(IsKeyPressed(KEY_ENTER) || IsKeyPressed(KEY_SPACE)) {
+            if(level_manager->slot_index == 0) {
                 manager->SwitchScene(2);
             }
+            else if(level_manager->slot_index == 1) {
+                manager->SwitchScene(3);
+            }
         }
+        
+        // std::cout<<level_manager->slot_index<<" ";
     }
     
     void draw() override {

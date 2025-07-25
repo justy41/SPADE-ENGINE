@@ -14,8 +14,9 @@ public:
     std::vector<std::unique_ptr<Wire>> wires;
     float spawn_timer;
     float spawn_timer_value;
+    float minSpeed, maxSpeed;
     
-    WireManager(float in_between_spawn_time);
+    WireManager(float in_between_spawn_time, float minSpeed, float maxSpeed);
     
     void update(float dt) override;
 };
