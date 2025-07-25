@@ -14,13 +14,18 @@ private:
     
 public:
     Player* player;
+    Sprite* yellow_bar;
     WireManager* wire_manager;
     ScoreManager* score_manager;
     
     void start() override {
         CameraSetup();
         
-        player = new Player(100, 100, 1200, -400);
+        yellow_bar = new Sprite(0, 0);
+        yellow_bar->loadTexture(RESOURCES_PATH "yellow_bar.png");
+        add(yellow_bar);
+        
+        player = new Player(100, 100, 1200, -400, 640.f, 1.5f);
         player->loadTexture(RESOURCES_PATH "player.png", true);
         player->set_tag("Player");
         player->drag = Vector2{55, 300};
@@ -40,6 +45,13 @@ public:
         Scene::update(dt);
         // Your code here
         // std::cout<<members.size()<<" ";
+        
+        if(player->touched_left) {
+            yellow_bar->position.x = GAME_WIDTH - yellow_bar->texture.width;
+        }
+        if(player->touched_right) {
+            yellow_bar->position.x = 0;
+        }
         
         if(score_manager->won) {
             lock_1 = true;

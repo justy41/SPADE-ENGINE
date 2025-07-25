@@ -16,9 +16,14 @@ public:
     Player* player;
     WireManager* wire_manager;
     ScoreManager* score_manager;
+    Sprite* yellow_bar;
     
     void start() override {
         CameraSetup();
+        
+        yellow_bar = new Sprite(0, 0);
+        yellow_bar->loadTexture(RESOURCES_PATH "yellow_bar.png");
+        add(yellow_bar);
         
         player = new Player(100, 100, 1200, -400);
         player->loadTexture(RESOURCES_PATH "player.png", true);
@@ -40,6 +45,13 @@ public:
         Scene::update(dt);
         // Your code here
         // std::cout<<members.size()<<" ";
+        
+        if(player->touched_left) {
+            yellow_bar->position.x = GAME_WIDTH - yellow_bar->texture.width;
+        }
+        if(player->touched_right) {
+            yellow_bar->position.x = 0;
+        }
         
         if(score_manager->won) {
             lock_2 = true;
