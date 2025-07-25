@@ -59,7 +59,7 @@ public:
         // Your code here
         if(IsKeyPressed(KEY_ENTER) || IsKeyPressed(KEY_SPACE)) {
             if(slot_index == 0) {
-                manager->SwitchScene(2);
+                manager->SwitchScene(5);
             }
             else if(slot_index == 1 && lock_1) {
                 manager->SwitchScene(3);

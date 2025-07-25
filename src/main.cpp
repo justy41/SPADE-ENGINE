@@ -3,6 +3,7 @@
 #include <memory>
 #include "spade.h"
 #include "raymath.h"
+#include "CutScene.h"
 #include "MenuScene.h"
 #include "EasyScene.h"
 #include "MediumScene.h"
@@ -22,6 +23,7 @@ int main(){
     manager.add(std::make_unique<EasyScene>());
     manager.add(std::make_unique<MediumScene>());
     manager.add(std::make_unique<HardScene>());
+    manager.add(std::make_unique<CutScene>());
     
     while(!SpadeWindowShouldClose(2) && !exitWindow) {
     // ======================================================== UPDATE ======================================================== //
