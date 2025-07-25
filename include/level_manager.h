@@ -4,12 +4,15 @@
 #include <vector>
 #include "spade.h"
 
+inline bool lock_1 = false;
+inline bool lock_2 = false;
+inline int slot_index = 0;
+
 class LevelManager : public Object
 {
 private:
     
 public:
-    int slot_index;
     int level_count;
     bool slot_change;
     

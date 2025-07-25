@@ -12,6 +12,8 @@ public:
     Sprite* easy_mode;
     Sprite* medium_mode;
     Sprite* hard_mode;
+    Sprite* lock_medium;
+    Sprite* lock_hard;
     LevelManager* level_manager;
     
     void start() override {
@@ -25,9 +27,17 @@ public:
         medium_mode->loadTexture(RESOURCES_PATH "medium.png");
         add(medium_mode);
         
+        lock_medium = new Sprite(288 - 4, 144 - 4);
+        lock_medium->loadTexture(RESOURCES_PATH "locked.png");
+        add(lock_medium);
+        
         hard_mode = new Sprite(400, 144);
         hard_mode->loadTexture(RESOURCES_PATH "hard.png");
         add(hard_mode);
+        
+        lock_hard = new Sprite(400 - 4, 144 - 4);
+        lock_hard->loadTexture(RESOURCES_PATH "locked.png");
+        add(lock_hard);
         
         level_manager = new LevelManager();
         add(level_manager);
@@ -38,15 +48,21 @@ public:
     void update(float dt) override {
         Scene::update(dt);
         
+        if(lock_1)
+            lock_medium->Destroy();
+        if(lock_2) {
+            lock_hard->Destroy();
+        }
+        
         // Your code here
         if(IsKeyPressed(KEY_ENTER) || IsKeyPressed(KEY_SPACE)) {
-            if(level_manager->slot_index == 0) {
+            if(slot_index == 0) {
                 manager->SwitchScene(2);
             }
-            else if(level_manager->slot_index == 1) {
+            else if(slot_index == 1 && lock_1) {
                 manager->SwitchScene(3);
             }
-            else if(level_manager->slot_index == 2) {
+            else if(slot_index == 2 && lock_2) {
                 manager->SwitchScene(4);
             }
         }

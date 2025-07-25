@@ -6,6 +6,7 @@
 #include "wire.h"
 #include "wire_manager.h"
 #include "score_manager.h"
+#include "level_manager.h"
 
 class MediumScene : public Scene
 {
@@ -41,6 +42,7 @@ public:
         // std::cout<<members.size()<<" ";
         
         if(score_manager->won) {
+            lock_2 = true;
             if(IsKeyPressed(KEY_SPACE)) {
                 manager->SwitchScene(1);
             }

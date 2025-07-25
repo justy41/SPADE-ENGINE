@@ -5,11 +5,10 @@ LevelManager::LevelManager() : Object(0, 0) {
 }
 
 void LevelManager::create() {
-    slot_index = 0;
     level_count = 3;
     slot_change = false;
     
-    arrow = new Sprite(192, 224);
+    arrow = new Sprite(192 + (112*slot_index), 224);
     arrow->loadTexture(RESOURCES_PATH "arrow.png");
     parent_scene->add(arrow);
 }
