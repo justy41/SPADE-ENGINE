@@ -19,7 +19,7 @@ void ScoreManager::update(float dt) {
             }
             
             if(player->hit) {
-                score /= 4;
+                score /= 2;
                 dif_score = prev_score - score;
                 player->hit = false;
             }

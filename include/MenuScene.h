@@ -46,6 +46,9 @@ public:
             else if(level_manager->slot_index == 1) {
                 manager->SwitchScene(3);
             }
+            else if(level_manager->slot_index == 2) {
+                manager->SwitchScene(4);
+            }
         }
         
         // std::cout<<level_manager->slot_index<<" ";

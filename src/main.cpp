@@ -6,6 +6,7 @@
 #include "MenuScene.h"
 #include "EasyScene.h"
 #include "MediumScene.h"
+#include "HardScene.h"
 
 int main(){
     InitSpadeWindow(1280, 720, 640, 360, "game", FLAG_WINDOW_RESIZABLE);
@@ -19,6 +20,7 @@ int main(){
     manager.add(std::make_unique<MenuScene>());
     manager.add(std::make_unique<EasyScene>());
     manager.add(std::make_unique<MediumScene>());
+    manager.add(std::make_unique<HardScene>());
     
     while(!SpadeWindowShouldClose(2)) {
     // ======================================================== UPDATE ======================================================== //
