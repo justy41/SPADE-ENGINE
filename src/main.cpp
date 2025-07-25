@@ -3,7 +3,7 @@
 #include <memory>
 #include "spade.h"
 #include "raymath.h"
-#include "StartScene.h"
+#include "EasyScene.h"
 #include "MenuScene.h"
 
 int main(){
@@ -16,7 +16,7 @@ int main(){
     // ======================================================== START ========================================================= //
     SceneManager manager;
     manager.add(std::make_unique<MenuScene>());
-    manager.add(std::make_unique<StartScene>());
+    manager.add(std::make_unique<EasyScene>());
     
     while(!SpadeWindowShouldClose(2)) {
     // ======================================================== UPDATE ======================================================== //

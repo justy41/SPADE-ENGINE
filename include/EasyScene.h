@@ -7,7 +7,7 @@
 #include "wire_manager.h"
 #include "score_manager.h"
 
-class StartScene : public Scene
+class EasyScene : public Scene
 {
 private:
     
@@ -26,11 +26,11 @@ public:
         player->set_hitbox(6, 6, 14, 14);
         add(player);
         
-        wire_manager = new WireManager(3);
-        add(wire_manager);
-        
         score_manager = new ScoreManager(player);
         add(score_manager);
+        
+        wire_manager = new WireManager(2);
+        add(wire_manager);
         
         Scene::start();
     }
