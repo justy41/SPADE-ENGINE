@@ -59,6 +59,10 @@ public:
                 manager->SwitchScene(1);
             }
         }
+        
+        if(IsKeyPressed(KEY_BACKSPACE)) {
+            manager->SwitchScene(1);
+        }
     }
     
     void draw() override {

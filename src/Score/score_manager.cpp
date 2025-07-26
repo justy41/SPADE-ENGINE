@@ -32,11 +32,6 @@ void ScoreManager::update(float dt) {
         prev_score = score;
     }
     
-    // FOR DEBUGGING
-    if(IsKeyPressed(KEY_BACKSPACE)) {
-        won = true;
-    }
-    
     if(won) {
         space_cooldown -= dt;
     }

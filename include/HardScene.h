@@ -31,7 +31,7 @@ public:
         player->set_hitbox(6, 6, 14, 14);
         add(player);
         
-        wire_manager = new WireManager(1, 60, 125);
+        wire_manager = new WireManager(2, 60, 125);
         add(wire_manager);
         
         score_manager = new ScoreManager(player, 30);
@@ -57,6 +57,10 @@ public:
             if(IsKeyPressed(KEY_SPACE) && score_manager->space_cooldown <= 0) {
                 manager->SwitchScene(1);
             }
+        }
+        
+        if(IsKeyPressed(KEY_BACKSPACE)) {
+            manager->SwitchScene(1);
         }
     }
     
