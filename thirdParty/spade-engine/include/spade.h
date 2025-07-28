@@ -43,17 +43,14 @@ inline bool SpadeWindowShouldClose(float timer_value) {
     return false;
 }
 
-// Stupid std::pair<float, float> hash function because C++ is too stupid to process anything...
 struct FloatPairHash {
     std::size_t operator()(const std::pair<float, float>& p) const {
         std::size_t h1 = std::hash<float>{}(p.first);
         std::size_t h2 = std::hash<float>{}(p.second);
-        // Combine hashes (e.g., using boost-style hash combine)
         return h1 ^ (h2 << 1);
     }
 };
 
-// Stupid Rectangle hash function because C++ is too stupid to process anything... again
 struct RectangleHash {
     std::size_t operator()(const Rectangle& rect) const {
         std::size_t hx = std::hash<float>{}(rect.x);
@@ -61,7 +58,6 @@ struct RectangleHash {
         std::size_t hw = std::hash<float>{}(rect.width);
         std::size_t hh = std::hash<float>{}(rect.height);
 
-        // Combine hashes using a simple hash combining technique
         return ((hx ^ (hy << 1)) >> 1) ^ (hw << 1) ^ (hh << 2);
     }
 };
@@ -750,7 +746,7 @@ public:
     }
     
     void UnloadScenes() {
-        // TODO: not really necessary
+        // TODO
     }
     
     ~SceneManager() {}
