@@ -16,6 +16,8 @@ public:
     Sprite* lock_hard;
     LevelManager* level_manager;
     
+    Music main_menu_theme;
+    
     float thanks_cooldown = 2;
     
     void start() override {
@@ -44,16 +46,25 @@ public:
         level_manager = new LevelManager();
         add(level_manager);
         
+        main_menu_theme = LoadMusicStream(RESOURCES_PATH "main_menu_theme.wav");
+        
         Scene::start();
     }
     
     void update(float dt) override {
         Scene::update(dt);
         
+        UpdateMusicStream(main_menu_theme);
+        
         if(lock_1)
             lock_medium->Destroy();
         if(lock_2) {
             lock_hard->Destroy();
+        }
+        
+        // Order matter. Put this block before switching scenes
+        if(!IsMusicStreamPlaying(main_menu_theme)) {
+            PlayMusicStream(main_menu_theme);
         }
         
         // Your code here
