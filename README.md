@@ -5,7 +5,8 @@
 **Kittylectron** is a small arcade-style game built in C++ with [raylib](https://www.raylib.com/) that started as a simple header-only engine experiment but evolved into a small game for my portofolio. Control a round yellow cat and leap across the screen while dodging electrifying hazards!
 
 ## Screenshots
-
+<img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_00.png" width=500> <img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_01.png" width = 500>
+<img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_02.png" width = 500> <img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_03.png" width = 500>
 
 ## Gameplay
 
@@ -28,10 +29,11 @@ The repository includes:
 - SceneManager (holds scenes)
 - Letterbox window resolution (black bars)
 
-- [Raylib](https://www.raylib.com/) as the engines foundation
-- [LDtkLoader](https://github.com/Madour/LDtkLoader), even though it's not used in the game
-- [ImGui](https://github.com/ocornut/imgui), if I'll ever need it
-- [nlohmann's json](https://github.com/nlohmann/json)
+- Spade-Engine:
+  - [Raylib](https://www.raylib.com/) as the engines foundation
+  - [LDtkLoader](https://github.com/Madour/LDtkLoader), even though it's not used in the game
+  - [ImGui](https://github.com/ocornut/imgui), if I'll ever need it
+  - [nlohmann's json](https://github.com/nlohmann/json)
 
 ## Status
 
