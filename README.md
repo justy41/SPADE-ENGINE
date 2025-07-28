@@ -5,8 +5,8 @@
 **Kittylectron** is a small arcade-style game built in C++ with [raylib](https://www.raylib.com/) that started as a simple header-only engine experiment but evolved into a small game for my portofolio. Control a round yellow cat and leap across the screen while dodging electrifying hazards!
 
 ## Screenshots
-<img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_00.png" width=400> <img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_01.png" width = 400>
-<img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_02.png" width = 400> <img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_03.png" width = 400>
+<img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_00.png" width=450> <img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_01.png" width = 450>
+<img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_02.png" width = 450> <img src="https://github.com/justy41/SPADE-ENGINE/blob/main/screenshots/Kittylectron_03.png" width = 450>
 
 ## Gameplay
 
